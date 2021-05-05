@@ -13,6 +13,9 @@ This will create a new table named cryptoTable
  b) This will give you real-time data. 
  c) If for some reason cryptocompare.com is not available, it will fetch data from database after 15 seconds of no response. 
  d) Also, when it fetches data from cryptocompare.com, the database gets automatically updated or new record gets inserted. This happens with the help of a "scheduler" which inserts or updates data after 5 seconds of when the insert/update function is triggered
+ 
+ 
+The nodemon module will make the service active for the links mentioned above.
 
 # improvizations that can be done on this service
    

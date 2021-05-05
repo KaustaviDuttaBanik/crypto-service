@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Data = require('../data/get-https-response');
 let path1, path2, path
-//register user
+
 router.get('/price', async (req, res) => {
 
     try {
